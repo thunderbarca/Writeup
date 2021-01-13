@@ -1,0 +1,8 @@
+version: '2'
+services:
+  second-cms:
+    build: ./web
+    image: ap0llo/second:1.0
+    ports:
+      - 8087:80
+
